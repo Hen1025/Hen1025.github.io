@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hypertext Document</title>
+</head>
+<body>
 
+<header role="banner">
+    <h1>Hypertext Project Overview</h1>
+</header>
+
+<nav role="navigation">
+    <ul>
+        <li><a href="../../index.html">More details about the WWW project.</a></li>
+    </ul>
+</nav>
+
+<main role="main">
+
+    <!-- Anchor Demo Section -->
+    <section id="anchor-demo">
+        <h2>Anchor Demonstration</h2>
+        <p>
+            This is the first instance of 
+            <a href="#dest1">THIS</a> demonstrating an internal anchor link.
+        </p>
+    </section>
+
+    <!-- Destination Section -->
+    <section id="dest1">
+        <h2>Destination Anchor</h2>
+        <p>
+            You have reached the destination anchor from the source link.
+        </p>
+    </section>
+
+    <!-- Content Section -->
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            This document explains hypertext concepts and how linking works across systems.
+        </p>
+
+        <h3>Examples</h3>
+        <pre><code>&lt;a href="example.html"&gt;Example Link&lt;/a&gt;</code></pre>
+
+        <h3>Resources</h3>
+        <ul>
+            <li><a href="#">original HTML source</a></li>
+            <li><a href="#">An arbitrary news article</a></li>
+            <li><a href="#">The newsgroup on hypertext</a></li>
+            <li><a href="#">the VM FIND command</a></li>
+            <li><a href="#">this (system default page link)</a></li>
+            <li><a href="#">THIS (second instance — remote anchor link)</a></li>
+            <li><a href="#">quite a lot of documentation and SGML examples</a></li>
+            <li><a href="#">SCRIPT</a></li>
+        </ul>
+    </section>
+
+    <!-- Glossary Section -->
+    <section>
+        <h2>Glossary</h2>
+        <dl>
+            <dt>Hypertext</dt>
+            <dd>Text that contains links to other texts or resources.</dd>
+
+            <dt>Anchor</dt>
+            <dd>A clickable element that links to another location.</dd>
+
+            <dt>Fragment URI</dt>
+            <dd>A URL that refers to a specific part of a document using an id.</dd>
+        </dl>
+    </section>
+
+</main>
+
+<footer role="contentinfo">
+    <p>&copy; 2026 Hypertext Project</p>
+</footer>
+
+</body>
+</html>
